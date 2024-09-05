@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+    background-size: 100% 3000px;
+   
+    
+}
+
+#principal {
+    background-color: #303030;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #BABABA;
+    
+}
+
+#menu {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+#principal div a {
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;    
+}
+
+#principal button {
+    margin-right: 5%;
+    background-color: #0C70F2;
+    border: 0;
+    height: 40px;
+    width: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white; 
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+    cursor: pointer;
+}
+
+#principal div a:hover{
+    color: #cccccc;
+}
+
+
+#textotopo h1{
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96.82px;
+    color: #ffffff;
+    margin-top: 150px;
+
+}
+
+#textotopo h2{
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    color: #ffffff;
+   
+}
+
+.invert {
+    background-color: black;
+}
+
+#Formulario {
+    margin-top: 15%;
+    
+    text-align: center;
+    
+}
+
+.form input {
+    width: 400px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.namesinput {
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 36.31px;
+text-align: center;
+color: #ffffff;
+
+
+}
+
+ .namebox {
+   color: #ffffff;
+}
+
+section input {
+ width: 50px;
+ height: 20px;
+}
+
+.cheque {
+    margin-bottom: 20px;
+}
+
+#loguin {
+    margin-top: 50px;
+    background-color: #0C70F2E5;
+    width: 200px;
+    height: 36px;
+    border: 0;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38.73px;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+#loguin:hover {
+    background-color: #4286ec;
+    color: #ffffff;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#partebaixo {
+    width: 100%;
+    background-color: #0C70F2;
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+#partebaixo,.linha {
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+#partebaixo ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+#partebaixo ul li {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--fonte-padrao);
+    margin: 20px 0px 20px 0px
+    
+}
+
+#partebaixo h5 {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: var(--fonte-padrao);
+    background-color: #303030;
+    border-radius: 10px;
+    
+}
+
+#partebaixo ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#partebaixo .endereco {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    color: white;
+    width: 20%;
+    text-align: center;
+}
+
+#partebaixo ul li a:hover {
+    color: #303030;
+}
+
+@media only screen and (max-width: 600px) {
+    #principal {
+        flex-direction: column;   
+        height: auto;
+        
+    }
+
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+                
+    }
+
+    #menu a {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #textotopo h1 {
+        font-size: 38px;
+    }
+    #textotopo h2 {
+        font-size: 28px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #Formulario input {
+        width: 90%;
+    }
+
+    .form label {
+        font-size: 20px;
+    }
+
+    #partebaixo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #partebaixo .endereco {
+        width: 93%;
+        margin-top: 50px;
+    }
+
+    
+
+    }
+
